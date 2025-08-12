@@ -4,7 +4,6 @@ from django.utils import timezone
 from django.test import Client
 from django.urls import reverse
 
-# Khởi động môi trường Django
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mysite.settings")
 import django
 django.setup()

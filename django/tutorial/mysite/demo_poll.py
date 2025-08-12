@@ -1,7 +1,6 @@
 import os
 import django
 
-# Chỉ định file settings.py của project (đổi 'mysite' thành tên project của bạn)
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
 django.setup()
 
