@@ -33,7 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'geography',
     'modellayer',
-    "django_extensions",
+    'makequery',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
